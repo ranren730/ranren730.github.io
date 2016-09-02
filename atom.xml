@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-02T10:13:55.446Z</updated>
+  <updated>2016-09-02T10:17:14.340Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,13 +16,14 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>my new post</title>
+    <title>My New Post</title>
     <link href="http://yoursite.com/2016/09/02/my-new-post/"/>
     <id>http://yoursite.com/2016/09/02/my-new-post/</id>
     <published>2016-09-02T10:08:47.000Z</published>
-    <updated>2016-09-02T10:13:55.446Z</updated>
+    <updated>2016-09-02T10:17:14.340Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Using-Markdown"><a href="#Using-Markdown" class="headerlink" title="Using Markdown"></a>Using Markdown</h2><p>It’s amazing using Hexo to build my blog.</p>
+<p>I modified this post.</p>
 ]]></content>
     
     <summary type="html">
