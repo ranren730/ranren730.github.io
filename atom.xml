@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-03T10:10:00.048Z</updated>
+  <updated>2016-09-03T12:01:57.178Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,31 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>My New Post</title>
-    <link href="http://yoursite.com/2016/03/02/my-new-post/"/>
-    <id>http://yoursite.com/2016/03/02/my-new-post/</id>
-    <published>2016-03-02T09:08:47.000Z</published>
-    <updated>2016-09-03T10:10:00.048Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Using-Markdown"><a href="#Using-Markdown" class="headerlink" title="Using Markdown"></a>Using Markdown</h2><p>It’s amazing using Hexo to build my blog.</p>
-<p>I modified this post.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Using-Markdown&quot;&gt;&lt;a href=&quot;#Using-Markdown&quot; class=&quot;headerlink&quot; title=&quot;Using Markdown&quot;&gt;&lt;/a&gt;Using Markdown&lt;/h2&gt;&lt;p&gt;It’s amazing using Hex
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Independent Artists Make Their Own Way Without Big Record Labels</title>
     <link href="http://yoursite.com/2016/02/03/Independent-Artists-Make-Their-Own-Way-Without-Big-Record-Labels/"/>
     <id>http://yoursite.com/2016/02/03/Independent-Artists-Make-Their-Own-Way-Without-Big-Record-Labels/</id>
     <published>2016-02-03T08:21:35.000Z</published>
-    <updated>2016-09-03T10:06:08.015Z</updated>
+    <updated>2016-09-03T12:01:57.178Z</updated>
     
     <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <a id="more"></a>
@@ -69,11 +49,35 @@
   </entry>
   
   <entry>
+    <title>My New Post For Test</title>
+    <link href="http://yoursite.com/2016/01/28/my-new-post/"/>
+    <id>http://yoursite.com/2016/01/28/my-new-post/</id>
+    <published>2016-01-28T09:08:47.000Z</published>
+    <updated>2016-09-03T12:10:24.276Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Using-Markdown"><a href="#Using-Markdown" class="headerlink" title="Using Markdown"></a>Using Markdown</h2><p>It’s amazing using Hexo to build my blog.</p>
+<p>I modified this post.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Using-Markdown&quot;&gt;&lt;a href=&quot;#Using-Markdown&quot; class=&quot;headerlink&quot; title=&quot;Using Markdown&quot;&gt;&lt;/a&gt;Using Markdown&lt;/h2&gt;&lt;p&gt;It’s amazing using Hex
+    
+    </summary>
+    
+      <category term="Markdown" scheme="http://yoursite.com/categories/Markdown/"/>
+    
+    
+      <category term="Test" scheme="http://yoursite.com/tags/Test/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2016/01/22/hello-world/"/>
     <id>http://yoursite.com/2016/01/22/hello-world/</id>
     <published>2016-01-22T08:21:35.000Z</published>
-    <updated>2016-09-03T10:06:09.315Z</updated>
+    <updated>2016-09-03T12:05:33.127Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -92,6 +96,10 @@
     
     </summary>
     
+      <category term="Tutorial" scheme="http://yoursite.com/categories/Tutorial/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
   </entry>
   
