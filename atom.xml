@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-03T12:23:09.981Z</updated>
+  <updated>2016-09-04T07:00:53.919Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>How to use ListView in Android</title>
+    <link href="http://yoursite.com/2016/09/04/How-to-use-ListView-in-Android/"/>
+    <id>http://yoursite.com/2016/09/04/How-to-use-ListView-in-Android/</id>
+    <published>2016-09-04T03:47:32.000Z</published>
+    <updated>2016-09-04T07:00:53.919Z</updated>
+    
+    <content type="html"><![CDATA[<p>fdsafdsafdsafdsafdsafdsafdsafdsafdsafdsa</p>
+<a id="more"></a>
+<p><img src="https://c8.staticflickr.com/9/8357/28819886183_9d061dc6ca_b.jpg" alt="tu1"><br><img src="https://c8.staticflickr.com/9/8357/28819886183_9d061dc6ca_m.jpg" alt="tu2"><br><img src="https://c8.staticflickr.com/9/8357/28819886183_9d061dc6ca_s.jpg" alt="tu3"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;fdsafdsafdsafdsafdsafdsafdsafdsafdsafdsa&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="ListView" scheme="http://yoursite.com/tags/ListView/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Being Outside in Fresh Air &amp; How Your Body Loves It</title>
     <link href="http://yoursite.com/2016/03/05/Being-Outside-in-Fresh-Air-How-Your-Body-Loves-It/"/>
     <id>http://yoursite.com/2016/03/05/Being-Outside-in-Fresh-Air-How-Your-Body-Loves-It/</id>
     <published>2016-03-04T11:20:57.000Z</published>
-    <updated>2016-09-03T12:23:09.981Z</updated>
+    <updated>2016-09-04T06:49:25.929Z</updated>
     
     <content type="html"><![CDATA[<p>Amor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><a id="more"></a><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 <p>“Dolores eos qui ratione voluptatem sequi nesciunt. Lorem ipsum dolor.”Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
@@ -49,7 +74,7 @@
     <link href="http://yoursite.com/2016/02/03/Independent-Artists-Make-Their-Own-Way-Without-Big-Record-Labels/"/>
     <id>http://yoursite.com/2016/02/03/Independent-Artists-Make-Their-Own-Way-Without-Big-Record-Labels/</id>
     <published>2016-02-03T08:21:35.000Z</published>
-    <updated>2016-09-03T12:22:47.187Z</updated>
+    <updated>2016-09-04T06:52:18.550Z</updated>
     
     <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <a id="more"></a>
