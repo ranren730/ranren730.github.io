@@ -106,7 +106,7 @@
     <link href="http://yoursite.com/2016/01/29/Putting-Images-In-Post/"/>
     <id>http://yoursite.com/2016/01/29/Putting-Images-In-Post/</id>
     <published>2016-01-29T02:47:32.000Z</published>
-    <updated>2016-09-04T07:07:32.967Z</updated>
+    <updated>2016-09-04T07:30:32.573Z</updated>
     
     <content type="html"><![CDATA[<p>There are three images for test!</p>
 <a id="more"></a>
@@ -119,10 +119,10 @@
     
     </summary>
     
-      <category term="MARKDOWN" scheme="http://yoursite.com/categories/MARKDOWN/"/>
+      <category term="Markdown" scheme="http://yoursite.com/categories/Markdown/"/>
     
     
-      <category term="TEST" scheme="http://yoursite.com/tags/TEST/"/>
+      <category term="Test" scheme="http://yoursite.com/tags/Test/"/>
     
   </entry>
   
