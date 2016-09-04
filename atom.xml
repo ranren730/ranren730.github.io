@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-04T07:00:53.919Z</updated>
+  <updated>2016-09-04T07:19:13.159Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,20 +16,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>How to use ListView in Android</title>
+    <title>How To Use ListView In Android</title>
     <link href="http://yoursite.com/2016/09/04/How-to-use-ListView-in-Android/"/>
     <id>http://yoursite.com/2016/09/04/How-to-use-ListView-in-Android/</id>
     <published>2016-09-04T03:47:32.000Z</published>
-    <updated>2016-09-04T07:00:53.919Z</updated>
+    <updated>2016-09-04T07:19:13.159Z</updated>
     
-    <content type="html"><![CDATA[<p>fdsafdsafdsafdsafdsafdsafdsafdsafdsafdsa</p>
-<a id="more"></a>
-<p><img src="https://c8.staticflickr.com/9/8357/28819886183_9d061dc6ca_b.jpg" alt="tu1"><br><img src="https://c8.staticflickr.com/9/8357/28819886183_9d061dc6ca_m.jpg" alt="tu2"><br><img src="https://c8.staticflickr.com/9/8357/28819886183_9d061dc6ca_s.jpg" alt="tu3"></p>
+    <content type="html"><![CDATA[<p>not finish yet!</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;fdsafdsafdsafdsafdsafdsafdsafdsafdsafdsa&lt;/p&gt;
+      &lt;p&gt;not finish yet!&lt;/p&gt;
+
     
     </summary>
     
@@ -99,6 +98,31 @@
     
     
       <category term="Music" scheme="http://yoursite.com/tags/Music/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Putting Images In Post</title>
+    <link href="http://yoursite.com/2016/01/29/Putting-Images-In-Post/"/>
+    <id>http://yoursite.com/2016/01/29/Putting-Images-In-Post/</id>
+    <published>2016-01-29T02:47:32.000Z</published>
+    <updated>2016-09-04T07:07:32.967Z</updated>
+    
+    <content type="html"><![CDATA[<p>There are three images for test!</p>
+<a id="more"></a>
+<p><img src="https://c8.staticflickr.com/9/8357/28819886183_9d061dc6ca_b.jpg" alt="tu1"><br><img src="https://c8.staticflickr.com/9/8357/28819886183_9d061dc6ca_m.jpg" alt="tu2"><br><img src="https://c8.staticflickr.com/9/8357/28819886183_9d061dc6ca_s.jpg" alt="tu3"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;There are three images for test!&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="MARKDOWN" scheme="http://yoursite.com/categories/MARKDOWN/"/>
+    
+    
+      <category term="TEST" scheme="http://yoursite.com/tags/TEST/"/>
     
   </entry>
   
