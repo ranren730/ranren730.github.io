@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/01/28/my-new-post/</loc>
+    
+    <lastmod>2016-09-10T09:39:06.474Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/01/29/Putting-Images-In-Post/</loc>
+    
+    <lastmod>2016-09-10T09:39:00.867Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/01/22/hello-world/</loc>
+    
+    <lastmod>2016-09-10T09:28:45.301Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/09/04/How-to-use-ListView-in-Android/</loc>
     
     <lastmod>2016-09-06T10:40:46.571Z</lastmod>
@@ -16,30 +37,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/01/29/Putting-Images-In-Post/</loc>
-    
-    <lastmod>2016-09-04T07:33:05.144Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2016/03/05/Being-Outside-in-Fresh-Air-How-Your-Body-Loves-It/</loc>
     
     <lastmod>2016-09-04T06:49:25.929Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/01/28/my-new-post/</loc>
-    
-    <lastmod>2016-09-03T12:10:24.276Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/01/22/hello-world/</loc>
-    
-    <lastmod>2016-09-03T12:05:33.127Z</lastmod>
     
   </url>
   
