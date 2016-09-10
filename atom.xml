@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-04T07:19:13.159Z</updated>
+  <updated>2016-09-06T10:40:46.571Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,14 +20,16 @@
     <link href="http://yoursite.com/2016/09/04/How-to-use-ListView-in-Android/"/>
     <id>http://yoursite.com/2016/09/04/How-to-use-ListView-in-Android/</id>
     <published>2016-09-04T03:47:32.000Z</published>
-    <updated>2016-09-04T07:19:13.159Z</updated>
+    <updated>2016-09-06T10:40:46.571Z</updated>
     
     <content type="html"><![CDATA[<p>not finish yet!</p>
+<p>ListView is one of important UI widgets in Android development.</p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;not finish yet!&lt;/p&gt;
+&lt;p&gt;ListView is one of important UI widgets in Android development.&lt;/p&gt;
 
     
     </summary>
