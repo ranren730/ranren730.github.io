@@ -3,17 +3,20 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Archive: 2016/9 | Ran&#39;s Blog</title>
+    <title>How To Use ListView With ArrayAdapter In Android | Ran&#39;s Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="life is a struggle, be willing to do, be happy to bear.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Ran's Blog">
-<meta property="og:url" content="http://yoursite.com/archives/2016/09/index.html">
+    <meta name="description" content="ListView is one of important and essential UI widgets in Android development. We can use an Adapter populating data to ListView. The simplest adapter to use is called an ArrayAdapter. It is becasuse">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How To Use ListView With ArrayAdapter In Android">
+<meta property="og:url" content="http://yoursite.com/2016/07/20/How-to-use-ListView-in-Android/index.html">
 <meta property="og:site_name" content="Ran's Blog">
-<meta property="og:description" content="life is a struggle, be willing to do, be happy to bear.">
+<meta property="og:description" content="ListView is one of important and essential UI widgets in Android development. We can use an Adapter populating data to ListView. The simplest adapter to use is called an ArrayAdapter. It is becasuse">
+<meta property="og:image" content="https://c5.staticflickr.com/9/8474/29154250900_16aee75a9c_o.jpg">
+<meta property="og:updated_time" content="2016-09-22T12:21:02.780Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ran's Blog">
-<meta name="twitter:description" content="life is a struggle, be willing to do, be happy to bear.">
+<meta name="twitter:title" content="How To Use ListView With ArrayAdapter In Android">
+<meta name="twitter:description" content="ListView is one of important and essential UI widgets in Android development. We can use an Adapter populating data to ListView. The simplest adapter to use is called an ArrayAdapter. It is becasuse">
+<meta name="twitter:image" content="https://c5.staticflickr.com/9/8474/29154250900_16aee75a9c_o.jpg">
     
 
     
@@ -228,50 +231,179 @@ var _hmt = _hmt || [];
 </aside>
 
             
-            <section id="main"><div class="timeline timeline-wrap">
-    
-            <div class="timeline-row timeline-row-major">
-                <span class="node"><i class="fa fa-calendar"></i></span>
-                <h1 class="title">2016</h1>
-            </div>
+            <section id="main"><article id="post-How-to-use-ListView-in-Android" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
+        
+            <header class="article-header">
                 
     
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/2016/09/04/How-to-use-ListView-in-Android/">How To Use ListView In Android</a>
+        <h1 class="article-title" itemprop="name">
+            How To Use ListView With ArrayAdapter In Android
         </h1>
     
 
-                <div class="article-meta">
-                    
+                
+                    <div class="article-meta">
+                        
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2016/09/04/How-to-use-ListView-in-Android/">
-            <time datetime="2016-09-04T03:47:32.000Z" itemprop="datePublished">2016-09-04</time>
+        <a href="/2016/07/20/How-to-use-ListView-in-Android/">
+            <time datetime="2016-07-20T03:47:32.000Z" itemprop="datePublished">2016-07-20</time>
         </a>
     </div>
 
 
-                    
+                        
     <div class="article-category">
     	<i class="fa fa-folder"></i>
         <a class="article-category-link" href="/categories/Android/">Android</a>
     </div>
 
-                    
+                        
     <div class="article-tag">
         <i class="fa fa-tag"></i>
         <a class="tag-link" href="/tags/ListView/">ListView</a>
     </div>
 
-                </div>
-            </div>
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <hr>
+<p><strong>ListView</strong> is one of important and essential UI widgets in Android development. We can use an <strong>Adapter</strong> populating data to ListView. The simplest adapter to use is called an <strong>ArrayAdapter</strong>. It is becasuse the adapter converts an ArrayList of objects into <strong>View</strong> items loaded into the <strong>ListView</strong> container.</p>
+<p><img src="https://c3.staticflickr.com/9/8096/29738758442_3ac4cebeca.jpg" alt=""></p>
+<a id="more"></a>
+<p>An <strong>ArrayAdapter</strong> is used to fit in between the <strong>ListView</strong> (Visual representation) and an <strong>ArrayList</strong> (data source). There are two aspects to configure.</p>
+<ul>
+<li>Which array to use as the data source for the list</li>
+<li>how to convert any given item in the array into a corresponding View object</li>
+</ul>
+<h2 id="Row-View-Recycling"><a href="#Row-View-Recycling" class="headerlink" title="Row View Recycling"></a>Row View Recycling</h2><p>Understanding how view recycling works could help us soomthly use an adapter and a <strong>ListView</strong>.</p>
+<p>When our ListView is connected to an adapter, the adapter will instaniate rows until the ListView has been fully popluated with enough items to fill the full height of the list. At that point, no additional row items are created in memory.</p>
+<p>Instead, as the user scroll through the list, <strong>items that leave the screen are kept in memory for later use</strong> and then every new row that enters the screen <strong>reuses an older row kept around in memory</strong>. In this way, even for a list of 1000 items, only ~7 item view rows are ever instantiated or held in memory. Here is a related diagram on view recycling:</p>
+<p><img src="https://c5.staticflickr.com/9/8236/29224931844_5c12d2bde1.jpg" alt=""></p>
+<p>not finish yet</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><hr>
+<ul>
+<li><a href="https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView" target="_blank" rel="external">https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView</a></li>
+<li><a href="http://android.amberfog.com/?p=296" target="_blank" rel="external">http://android.amberfog.com/?p=296</a></li>
+</ul>
+
+        
         </div>
-    
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
 </div>
+
+    <a data-url="http://yoursite.com/2016/07/20/How-to-use-ListView-in-Android/" data-id="citeb7bx600036gejoo52xdwq" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="http://yoursite.com/2016/07/20/How-to-use-ListView-in-Android/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://yoursite.com/2016/07/20/How-to-use-ListView-in-Android/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2016/03/05/Being-Outside-in-Fresh-Air-How-Your-Body-Loves-It/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">Being Outside in Fresh Air &amp; How Your Body Loves It</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
 </section>
             
                 <aside id="sidebar">
@@ -285,10 +417,10 @@ var _hmt = _hmt || [];
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/2016/09/04/How-to-use-ListView-in-Android/" class="thumbnail">
+                            <a href="/2016/07/20/How-to-use-ListView-in-Android/" class="thumbnail">
     
     
-        <span style="background-image:url(https://c5.staticflickr.com/9/8474/29154250900_16aee75a9c_o.jpg)" alt="How To Use ListView In Android" class="thumbnail-image"></span>
+        <span style="background-image:url(https://c5.staticflickr.com/9/8474/29154250900_16aee75a9c_o.jpg)" alt="How To Use ListView With ArrayAdapter In Android" class="thumbnail-image"></span>
     
 </a>
 
@@ -296,8 +428,8 @@ var _hmt = _hmt || [];
                         
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/Android/">Android</a></p>
-                            <p class="item-title"><a href="/2016/09/04/How-to-use-ListView-in-Android/" class="title">How To Use ListView In Android</a></p>
-                            <p class="item-date"><time datetime="2016-09-04T03:47:32.000Z" itemprop="datePublished">2016-09-04</time></p>
+                            <p class="item-title"><a href="/2016/07/20/How-to-use-ListView-in-Android/" class="title">How To Use ListView With ArrayAdapter In Android</a></p>
+                            <p class="item-date"><time datetime="2016-07-20T03:47:32.000Z" itemprop="datePublished">2016-07-20</time></p>
                         </div>
                     </li>
                 
@@ -395,7 +527,7 @@ var _hmt = _hmt || [];
     <div class="widget-wrap">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">3</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">3</span></li></ul>
         </div>
     </div>
 
@@ -455,11 +587,13 @@ var _hmt = _hmt || [];
     <script>
     var disqus_config = function () {
         
-        this.page.identifier = 'undefined';
+            this.page.url = 'http://yoursite.com/2016/07/20/How-to-use-ListView-in-Android/';
+        
+        this.page.identifier = 'How-to-use-ListView-in-Android';
     };
     (function() { 
         var d = document, s = d.createElement('script');  
-        s.src = '//' + 'helloran' + '.disqus.com/count.js';
+        s.src = '//' + 'helloran' + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();

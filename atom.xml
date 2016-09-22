@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-06T10:40:46.571Z</updated>
+  <updated>2016-09-22T12:21:02.780Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,21 +16,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>How To Use ListView In Android</title>
-    <link href="http://yoursite.com/2016/09/04/How-to-use-ListView-in-Android/"/>
-    <id>http://yoursite.com/2016/09/04/How-to-use-ListView-in-Android/</id>
-    <published>2016-09-04T03:47:32.000Z</published>
-    <updated>2016-09-06T10:40:46.571Z</updated>
+    <title>How To Use ListView With ArrayAdapter In Android</title>
+    <link href="http://yoursite.com/2016/07/20/How-to-use-ListView-in-Android/"/>
+    <id>http://yoursite.com/2016/07/20/How-to-use-ListView-in-Android/</id>
+    <published>2016-07-20T03:47:32.000Z</published>
+    <updated>2016-09-22T12:21:02.780Z</updated>
     
-    <content type="html"><![CDATA[<p>not finish yet!</p>
-<p>ListView is one of important UI widgets in Android development.</p>
+    <content type="html"><![CDATA[<hr>
+<p><strong>ListView</strong> is one of important and essential UI widgets in Android development. We can use an <strong>Adapter</strong> populating data to ListView. The simplest adapter to use is called an <strong>ArrayAdapter</strong>. It is becasuse the adapter converts an ArrayList of objects into <strong>View</strong> items loaded into the <strong>ListView</strong> container.</p>
+<p><img src="https://c3.staticflickr.com/9/8096/29738758442_3ac4cebeca.jpg" alt=""></p>
+<a id="more"></a>
+<p>An <strong>ArrayAdapter</strong> is used to fit in between the <strong>ListView</strong> (Visual representation) and an <strong>ArrayList</strong> (data source). There are two aspects to configure.</p>
+<ul>
+<li>Which array to use as the data source for the list</li>
+<li>how to convert any given item in the array into a corresponding View object</li>
+</ul>
+<h2 id="Row-View-Recycling"><a href="#Row-View-Recycling" class="headerlink" title="Row View Recycling"></a>Row View Recycling</h2><p>Understanding how view recycling works could help us soomthly use an adapter and a <strong>ListView</strong>.</p>
+<p>When our ListView is connected to an adapter, the adapter will instaniate rows until the ListView has been fully popluated with enough items to fill the full height of the list. At that point, no additional row items are created in memory.</p>
+<p>Instead, as the user scroll through the list, <strong>items that leave the screen are kept in memory for later use</strong> and then every new row that enters the screen <strong>reuses an older row kept around in memory</strong>. In this way, even for a list of 1000 items, only ~7 item view rows are ever instantiated or held in memory. Here is a related diagram on view recycling:</p>
+<p><img src="https://c5.staticflickr.com/9/8236/29224931844_5c12d2bde1.jpg" alt=""></p>
+<p>not finish yet</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><hr>
+<ul>
+<li><a href="https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView" target="_blank" rel="external">https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView</a></li>
+<li><a href="http://android.amberfog.com/?p=296" target="_blank" rel="external">http://android.amberfog.com/?p=296</a></li>
+</ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;not finish yet!&lt;/p&gt;
-&lt;p&gt;ListView is one of important UI widgets in Android development.&lt;/p&gt;
-
+      &lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ListView&lt;/strong&gt; is one of important and essential UI widgets in Android development. We can use an &lt;strong&gt;Adapter&lt;/strong&gt; populating data to ListView. The simplest adapter to use is called an &lt;strong&gt;ArrayAdapter&lt;/strong&gt;. It is becasuse the adapter converts an ArrayList of objects into &lt;strong&gt;View&lt;/strong&gt; items loaded into the &lt;strong&gt;ListView&lt;/strong&gt; container.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c3.staticflickr.com/9/8096/29738758442_3ac4cebeca.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
